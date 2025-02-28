@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 20PX;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+nav ul li{
+    display: flex;
+    justify-content: space-around;
+   gap: 20px;
+   margin-right: 40px;
+
+ 
+}
+nav ul li a{
+   text-decoration: none;
+   color: white;
+}
+
+.navbar{
+   margin-left: 40px;
+}
+span{
+    color: grey;
+  
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+.edit-btn, .delete-btn {
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.edit-btn {
+    background-color: #4CAF50; /* Green */
+}
+
+.delete-btn {
+    background-color: #f44336; /* Red */
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}
+
+.edit-btn:hover {
+    background-color: #388E3C;
+}
